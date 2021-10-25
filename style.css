@@ -1,0 +1,152 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  border-radius: 55%;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 175px;
+  background-color: rgb(61, 61, 61);
+  color: #fff;
+  text-align: left;
+  float: left;
+  border-radius: 6px;  
+  padding: 5px;  
+  position:absolute;
+  z-index: 1;
+  top: 10px;
+  right: 75%;
+  padding: 20%;     
+   margin: -20%;
+}
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+}
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .mainimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn1 {
+  position: absolute;
+  top: 52%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  border: 50%;
+  border-color: rgb(2, 3, 60);
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.btn2 {
+  position: absolute;
+  top: 52%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  border: 25%;
+  border-color: rgb(2, 3, 60);
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.btn3 {
+  position: absolute;
+  top: 15%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  border: 25%;
+  border-color: rgb(2, 3, 60);
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.btn4 {
+  position: absolute;
+  top: 55%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  border: 25%;
+  border-color: rgb(2, 3, 60);
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.btn5 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  border: 25%;
+  border-color: rgb(2, 3, 60);
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.smallimg{
+  width: 75%;
+  height: 75%;
+  float: left;
+  padding: 5px;
+}
+.mainimg{  
+  width: 75%;
+}
+header{
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(2, 3, 60);
+  color: white;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+}
+h1{
+  margin-left: 2.5%;
+}
+h2{
+  padding-left: 5px;
+}
+ul{
+  font-size: medium;
+  padding-left: 10%;
+}
+a {
+  color: white;
+}
+section{
+  color: #fff;
+  float: right;
+  font-size: small;
+  font-family: 'Noto Sans', sans-serif;
+}
+footer{
+  text-align: center;
+  width:100%;
+  height:30px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  color: white;
+  background-color: rgb(2, 3, 60);
+  font-family: 'Noto Sans', sans-serif;
+} 
